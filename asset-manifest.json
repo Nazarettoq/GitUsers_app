@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/GitUsers_app/static/css/main.fad3b0b8.chunk.css",
+    "main.js": "/GitUsers_app/static/js/main.c1b976d9.chunk.js",
+    "main.js.map": "/GitUsers_app/static/js/main.c1b976d9.chunk.js.map",
+    "runtime-main.js": "/GitUsers_app/static/js/runtime-main.a0e9d0d7.js",
+    "runtime-main.js.map": "/GitUsers_app/static/js/runtime-main.a0e9d0d7.js.map",
+    "static/js/2.24e9de44.chunk.js": "/GitUsers_app/static/js/2.24e9de44.chunk.js",
+    "static/js/2.24e9de44.chunk.js.map": "/GitUsers_app/static/js/2.24e9de44.chunk.js.map",
+    "index.html": "/GitUsers_app/index.html",
+    "static/css/main.fad3b0b8.chunk.css.map": "/GitUsers_app/static/css/main.fad3b0b8.chunk.css.map",
+    "static/js/2.24e9de44.chunk.js.LICENSE.txt": "/GitUsers_app/static/js/2.24e9de44.chunk.js.LICENSE.txt",
+    "static/media/iconCryGithub.4f3e2028.png": "/GitUsers_app/static/media/iconCryGithub.4f3e2028.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a0e9d0d7.js",
+    "static/js/2.24e9de44.chunk.js",
+    "static/css/main.fad3b0b8.chunk.css",
+    "static/js/main.c1b976d9.chunk.js"
+  ]
+}
