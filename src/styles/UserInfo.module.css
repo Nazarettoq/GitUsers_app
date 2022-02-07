@@ -1,0 +1,73 @@
+.userInfo {
+  overflow: scroll;
+  position: sticky;
+  height: 98vh;
+  top: 0px;
+}
+
+.userInfo::-webkit-scrollbar-track {
+  border-radius: 4px;
+}
+.userInfo::-webkit-scrollbar {
+  width: 6px;
+}
+.userInfo::-webkit-scrollbar-thumb {
+  border-radius: 4px;
+  background: rgba(39, 39, 39, 0.4);
+}
+.userInfo:hover::-webkit-scrollbar-thumb {
+  background: rgb(20, 20, 20);
+}
+.userlogin {
+  text-align: center;
+  word-wrap: break-word;
+}
+.userImg {
+  width: 100%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.username {
+  font-size: 30px;
+  font-family: Courier New, monospace;
+  text-align: center;
+  font-weight: 600;
+}
+
+.bio,
+.rep {
+  padding-top: 1vh;
+  font-family: sans-serif;
+  word-wrap: break-word;
+  font-size: 20px;
+  padding-left: 1vw;
+}
+li {
+  margin-left: -1vw;
+  list-style-type: none;
+}
+ul {
+  font-weight: 700;
+}
+.ulElement {
+  color: black;
+  font-weight: 400;
+}
+a {
+  text-decoration: none;
+  display: inline-block;
+
+  transition: 0.3s ease-in-out;
+}
+.linkMove {
+  color: #000000;
+}
+.linkMove:hover {
+  transform: scaleX(1.05);
+}
+
+.follows {
+  padding-top: 10px;
+  font-family: Courier New;
+  text-align: center;
+  font-weight: 600;
+}

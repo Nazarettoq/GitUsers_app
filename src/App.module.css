@@ -1,0 +1,132 @@
+.appSyle {
+  display: grid;
+  min-height: 100vh;
+  grid-template-areas:
+    't  s '
+    'i  u ';
+  grid-template-rows: 60px 1fr 30px;
+  grid-template-columns: 25vw 1fr;
+  background-color: rgb(247, 248, 250);
+}
+
+.searchLine {
+  grid-area: s;
+
+  width: 100%;
+}
+.timer {
+  grid-area: t;
+  position: absolute;
+  z-index: 100;
+}
+.users {
+  grid-area: u;
+  width: 100%;
+
+  text-align: center;
+}
+
+.userInfo {
+  grid-area: i;
+  background-color: rgba(155, 155, 155, 0.178);
+  box-shadow: 0 4px 15px 1px rgba(0, 0, 0, 0.4);
+}
+.firstView {
+  padding-top: 20vh;
+  display: block;
+  text-align: center;
+}
+.iconGithub {
+  height: 150px;
+}
+.Firstsearch {
+  width: 600px;
+  margin: auto;
+  height: 35px;
+  background: rgb(24, 24, 24);
+  border-radius: 3px;
+  border: 1px solid #fff;
+}
+
+.Firstsearch input {
+  width: 350px;
+  padding: 10px 5px;
+  float: left;
+  color: rgb(255, 255, 255);
+  border: 0;
+  background: transparent;
+  border-radius: 3px 0 0 3px;
+}
+.Firstsearch input:focus {
+  outline: 0;
+  background: transparent;
+}
+.Firstsearch button {
+  position: relative;
+  float: right;
+  padding: 0;
+  cursor: pointer;
+  height: 35px;
+  width: 80px;
+  color: #fff;
+  background: transparent;
+  border-left: 1px solid #fff;
+}
+.Firstsearch button:hover {
+  background: rgb(255, 255, 255);
+  color: rgb(32, 32, 32);
+}
+.Firstsearch button:active {
+  box-shadow: 0px 0px 12px 0px rgba(225, 225, 225, 1);
+}
+.Firstsearch button:focus {
+  outline: 0;
+}
+
+.search {
+  width: 450px;
+
+  height: 35px;
+  position: absolute;
+  top: 10px;
+  left: 40%;
+  text-align: center;
+  background: rgb(24, 24, 24);
+
+  border-radius: 3px;
+  border: 1px solid #fff;
+}
+.search input {
+  width: 350px;
+  padding: 10px 5px;
+  float: left;
+  color: rgb(255, 255, 255);
+  border: 0;
+  background: transparent;
+  border-radius: 3px 0 0 3px;
+}
+.search input:focus {
+  outline: 0;
+  background: transparent;
+}
+.search button {
+  position: relative;
+  float: right;
+  padding: 0;
+  cursor: pointer;
+  height: 35px;
+  width: 80px;
+  color: #fff;
+  background: transparent;
+  border-left: 1px solid #fff;
+}
+.search button:hover {
+  background: rgb(255, 255, 255);
+  color: rgb(32, 32, 32);
+}
+.search button:active {
+  box-shadow: 0px 0px 12px 0px rgba(225, 225, 225, 1);
+}
+.search button:focus {
+  outline: 0;
+}
